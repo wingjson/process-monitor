@@ -1,0 +1,14 @@
+{   
+    "tasks": [
+        {   
+            "##name": "name",
+            "name": "monitor",
+            "##port": "if port and process name all exist , check port first",
+            "port": "8080",
+            "##process":"process name or key name,Possible duplication",
+            "process": "dspace-tree",
+            "##cmd":"the command to start your service,use bash or bat to start",
+            "cmd":"/release/startup.sh"
+        }
+    ]
+}
